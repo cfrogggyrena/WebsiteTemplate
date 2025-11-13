@@ -2,9 +2,9 @@
 <div class="home-container">
     <!-- banner section -->
     <div class="banner-container">
-        <img src="banner-ph.jpg" alt="Banner">
+        <img src="background.jpg" alt="Banner">
         <div class="banner-text" [@textAnimation]="animationState">
-            <h1>Support a cause you care about</h1>
+            <h1>Insert your own title</h1>
             <p>Lorem ipsum whatever text</p>
         </div>
     </div>
@@ -14,11 +14,12 @@
             <img src="mid-content.png" alt="sample-image" class="mid-image">
         </div>
         <div class="box"> <!-- text and button box -->
-            <h1 class="mid-title">Who we are?</h1>
+            <h1 class="mid-title">Insert text</h1>
             <p class="mid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <button mat-button>Learn More</button>
+            <!-- change routerLink to a different page if needed -->
+            <button mat-button routerLink="about">Learn More</button>
         </div>
     </div>
     <!-- counter -->
@@ -28,21 +29,21 @@
                 <mat-icon class="icon-counter">volunteer_activism</mat-icon>
                 {{ displayNumberOne }}+
             </p>
-            <p class="counter-text">Active Cases</p>
+            <p class="counter-text">your text</p>
         </div>
         <div class="counter-item">
             <p class="counter-number">
                 <mat-icon class="icon-counter">archive</mat-icon>
                 {{ displayNumberTwo }}
             </p>
-            <p class="counter-text">People Joined</p>
+            <p class="counter-text">your text</p>
         </div>
         <div class="counter-item">
             <p class="counter-number">
-                <mat-icon class="icon-counter">diversity_1</mat-icon>
+                <mat-icon class="icon-counter">engineering</mat-icon>
                 {{ displayNumberThree }}
             </p>
-            <p class="counter-text">Cases every Year</p>
+            <p class="counter-text">your text</p>
         </div>
     </div>
 </div>

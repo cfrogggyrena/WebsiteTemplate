@@ -28,6 +28,7 @@ import {
     trigger('textAnimation', [
       state('hidden', style({
         opacity: 0,
+        // animation for the slide text
         transform: 'translateX(-50px)' // start off-screen to the left
       })),
       state('visible', style({
@@ -47,6 +48,7 @@ export class Home implements OnInit, AfterViewInit {
     }, 200);
   }
 
+  // counter functions
   @ViewChild('counterElement') counterElement!: ElementRef;
   displayNumberOne = 0;
   displayNumberTwo = 0;
@@ -76,7 +78,7 @@ export class Home implements OnInit, AfterViewInit {
 
     this.observer.observe(this.counterElement.nativeElement);
   }
-
+// counter one
   startCounterOne() {
     const source = interval(this.speedOne);
     this.subscriptionOne = source.subscribe(() => {
@@ -91,7 +93,7 @@ export class Home implements OnInit, AfterViewInit {
       }
     });
   }
-
+// counter two
   startCounterTwo() {
     const source = interval(this.speedTwo);
     this.subscriptionTwo = source.subscribe(() => {
@@ -106,7 +108,7 @@ export class Home implements OnInit, AfterViewInit {
       }
     });
   }
-
+// counter three
   startCounterThree() {
     const source = interval(this.speedThree);
     this.subscriptionThree = source.subscribe(() => {

@@ -1,13 +1,16 @@
 <div class="home-container">
     <div class="banner-container">
-        <img src="banner-ph.jpg" alt="Banner">
+        <!-- have in mind this section is meant for horizontal images with  
+            not a lot of height on them (eg.banners). Use of images too big might affect 
+            the visualization and so. -->
+        <img src="backgroundTwo.jpeg" class="banner-blog">
         <div class="banner-text">
             <h1>Active Cases</h1>
         </div>
     </div>
 
     <!-- title  -->
-    <h1 class="title-blog">Causes we are serving</h1>
+    <h1 class="title-blog">Insert text</h1>
 
     <!-- mat cards for blog -->
     <div class="cards-container">
@@ -18,7 +21,8 @@
                 <mat-card-title>{{s.title}}</mat-card-title>
                 <mat-card-subtitle>{{s.author}} - {{s.date}}</mat-card-subtitle>
             </mat-card-header>
-            <img class="image-card" src="https://material.angular.dev/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+            <img class="image-card" src="https://material.angular.dev/assets/img/examples/shiba2.jpg"
+                alt="Photo of a Shiba Inu">
             <mat-card-content>
                 <p>Blog post summary goes here...</p>
             </mat-card-content>
@@ -26,6 +30,35 @@
                 <button mat-button (click)="openDialog(s)">More</button>
             </mat-card-actions>
         </mat-card>
-    }
+        }
+    </div>
+
+    <!-- more possible blog content -->
+    <div class="blog-container">
+        <div class="blog-box image-box">
+            <img src="mid-content.png">
+        </div>
+        <div class="blog-box text-box">
+            <h2>Blog Title Goes Here</h2>
+            <p>
+                This is where your blog content goes. You can write multiple paragraphs here.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+        </div>
+    </div>
+    <!-- b2 -->
+         <div class="blog-container">
+        <div class="blog-box image-box">
+            <img src="mid-content.png">
+        </div>
+        <div class="blog-box text-box">
+            <h2>Blog Title Goes Here</h2>
+            <p>
+                This is where your blog content goes. You can write multiple paragraphs here.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+        </div>
     </div>
 </div>

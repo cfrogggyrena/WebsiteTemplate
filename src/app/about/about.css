@@ -1,6 +1,6 @@
-img {
+.banner-about {
     width: 100%;
-    height: 50px; /* adjust laterfor something more lenghty */
+    height: 100% !important; /* adjust laterfor something more lenghty */
     background-size: cover;       /* Scales image to fill width */
     background-position: center;  /* Keeps image centered */
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ img {
 }
 
 mat-card {
-  margin: 0; /* Remove extra margin since grid handles spacing */
+  margin-bottom: 10%; /* Remove extra margin since grid handles spacing */
 }
 
 

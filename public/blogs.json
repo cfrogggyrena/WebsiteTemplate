@@ -2,7 +2,7 @@
   "blogs": [
     {
       "title": "Exploring Angular Material",
-      "author": "Camila Esguerra",
+      "author": "Camila",
       "date": "2025-11-10",
       "summary": "Learn how to use Angular Material components effectively."
     },
@@ -13,10 +13,10 @@
       "summary": "RxJS is powerful for reactive programming in Angular."
     },
     {
-      "title": "Rae is pretty",
-      "author": "Meee",
-      "date": "today...",
-      "summary": "i love my gf"
+      "title": "Sheridan",
+      "author": "Term 4",
+      "date": "2025-10-09",
+      "summary": "The start for a next semester soon."
     }
   ]
 }

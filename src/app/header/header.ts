@@ -17,6 +17,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
   styleUrls: ['./header.css'],
 
 
+// animations for toolbar show/hide
   animations: [
     trigger('toolbarAnimation', [
       state('visible', style({
@@ -43,7 +44,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 export class Header {
 
   toolbarState: 'visible' | 'hidden' = 'visible';
-  private threshold = 500; // point where toolbar reappears
+  private threshold = 700; // point where toolbar reappears
   private lastScrollTop = 0;
 
   @HostListener('window:scroll', [])

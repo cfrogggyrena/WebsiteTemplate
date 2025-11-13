@@ -174,7 +174,7 @@ button:hover {
   }
 }
 
-/* counter */
+/* counter styling */
 .counter-container {
   display: flex;
   justify-content: space-around; 
@@ -185,7 +185,7 @@ button:hover {
   width: 100%;
   overflow: hidden;
   background-repeat: repeat-x;
-  background-image: url("https://i.pinimg.com/736x/ca/52/e8/ca52e8d6d363a495219e23cc522a6179.jpg") !important;
+  background-image: url('/counter-banner.png');
 }
 
 .counter-item {
@@ -199,13 +199,13 @@ button:hover {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 10%;
-  color: rgb(255, 255, 255);
+  color: #2d4a72;
 }
 
 .counter-text {
   font-size: 1rem;
   margin-top: 0%;
-  color: white;
+  color: #2d4a72;
 }
 .icon-counter{
   font-size: 48px; 
